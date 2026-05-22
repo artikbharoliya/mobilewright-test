@@ -5,4 +5,5 @@ module.exports = defineConfig({
   platform: 'android',
   bundleId: 'ca.paymentsource.paysimplymobile',
   reporter: 'html',
+  timeout: 500_000,
 });
